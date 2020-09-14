@@ -1,0 +1,22 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "description": "Most of these katas are taken from [codewars.com](codewars.com) and are to be completed with TDD. In some cases the descriptions have been modified so please read the README in each directory for instructions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmarla/katas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmarla/katas/issues"
+  },
+  "homepage": "https://github.com/mmarla/katas#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}

@@ -7,8 +7,8 @@ The dependencies you are likely to need for this project are listed in the packa
 Remember that you can pend a test if you do not want it to run by prepending x to a `describe`, `it` or `test` block:
 
 ```
-xdescribe('The function', function () {
-  it('Will pend anything inside this describe block', function () {
+describe('The function',  () => {
+  xtest('Will pend anything inside this describe block', ()  => {
     expect(1).to.equal(1);
     });
   });
